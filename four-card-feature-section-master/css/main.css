@@ -1,0 +1,139 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  width: 30em;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.top {
+  width: 25em;
+  margin-top: 4em;
+  margin-bottom: 3em;
+}
+
+img {
+  width: 4em;
+}
+
+h1 {
+  font-weight: 100;
+  color: #55535b;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #404250;
+}
+
+.top p {
+  color: #a2a1a5;
+  font-size: 1.3rem;
+}
+
+.square {
+  width: 25em;
+  height: 15em;
+  border: 2px solid #ebeff6;
+  border-radius: 1em;
+}
+
+.square h2 {
+  margin-left: 1.5em;
+}
+
+.square p {
+  margin-left: 2.1em;
+  color: #c8c7cc;
+  margin-top: -0.5em;
+}
+
+.square img {
+  margin-left: 19em;
+  margin-top: 2.5em;
+}
+
+.square.supervisor {
+  border-top-color: #82d6d5;
+}
+
+.square.supervisor img {
+  margin-top: 3.5em;
+}
+
+.square.team {
+  border-top-color: #d2434c;
+}
+
+.square.karma {
+  border-top-color: #f7bb75;
+}
+
+.square.karma img {
+  margin-top: 3.5em;
+}
+
+.square.calculator {
+  border-top-color: #4486e1;
+}
+
+.midsquare {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.squares {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 80em;
+    height: 50em;
+  }
+
+  .squares {
+    flex-direction: row;
+  }
+
+  .square.supervisor {
+    margin-top: 10em;
+  }
+
+  .square.calculator {
+    margin-top: 10em;
+  }
+
+  .top {
+    width: 50em;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-left: 3em;
+  }
+
+  h3 {
+    font-size: 3rem;
+    margin-left: 3em;
+    margin-top: -0.4em;
+  }
+
+  .top p {
+    margin-left: 6em;
+  }
+}
